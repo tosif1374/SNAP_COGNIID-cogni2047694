@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(51, 49, 49);
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    position: relative;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.bg1 { background-color: #cbbdbd; }
+.bg2 { background-color: #455d45; }
+.bg3 { background-color: #4f4f6d; }
+.bg4 { background-color: #b4dea3; }
+.bg5 { background-color: #ffcc99; }
+.bg6 { background-color: #a8dbed; }
+.bg7 { background-color: #cd9bce; }
+
+img {
+    max-width: 86%;
+    height:450px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>welcome! Lets shop </h1>
+        <nav>
+            <a href="#section1">Home</a>
+            <a href="#section2">View all items</a>
+           
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1" class="section">
+            <div class="container bg1">
+                <img src="/DSA web/TravelWithUs Website/IITR/image1.avif" alt="Image 1">
+                <h3>Fratelli Rossi</h3>
+            </div>
+        </section>
+        <section id="section2" class="section">
+            <div class="container bg2">
+                
+                <img src="/DSA web/TravelWithUs Website/IITR/image2.avif" alt="Image 2">
+                <h3>Goodmoods Edition</h3>
+            </div>
+        </section>
+        <section id="section3" class="section">
+            <div class="container bg3">
+                
+                <img src="/DSA web/TravelWithUs Website/IITR/image4.avif" alt="Image 3">
+                <h2>Clothes</h2>
+            </div>
+        </section>
+        <section id="section4" class="section">
+            <div class="container bg4">
+                
+                <img src="/DSA web/TravelWithUs Website/IITR/image3.avif" alt="Image 4">
+                <h2>Rebellion</h2>
+                
+            </div>
+        </section>
+        <section id="section5" class="section">
+            <div class="container bg5">
+                <img src="/DSA web/TravelWithUs Website/IITR/image5.avif" alt="Image 5">
+                <h2></h2>
+            </div>
+        </section>
+        <section id="section6" class="section">
+            <div class="container bg6">
+                
+                <img src="/DSA web/TravelWithUs Website/IITR/image6.avif" alt="Image 6">
+                <h2>What</h2>
+            </div>
+        </section>
+        <section id="section7" class="section">
+            <div class="container bg7">
+              
+                <img src="/DSA web/TravelWithUs Website/IITR/image7.avif" alt="Image 7">
+                <h2>Merch Bign</h2>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>We are dedicated to providing the best shopping experience with a wide range of products at unbeatable prices. Our mission is to make online shopping easy and enjoyable for everyone.</p>
+            </div>
+            
+
+        
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Shopping Website. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
